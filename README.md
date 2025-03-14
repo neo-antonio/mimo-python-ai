@@ -1,5 +1,5 @@
 # mimo-python-ai
-Mimo is an online gamified course that teaches programming languages. Here are my projects for the Mimo Python AI Developer course. I added a bit of alterations and modifications to the original project templates.
+Mimo is an online gamified course that teaches programming languages. Here are my projects for the Mimo Python AI Developer course. I added a bit of alterations and modifications to some of the original project templates.
 
 
 ## Licensing

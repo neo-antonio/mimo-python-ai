@@ -45,10 +45,8 @@ for book in books:
 
 print("Welcome to the Library!")
 
-
-
 while True:
-    print("Choose an action: ")
+    print("Options")
     print("1 - display available books")
     print("2 - borrow a book")
     print("3 - return a book")
@@ -69,7 +67,7 @@ while True:
             if book.checkout():
                 print("You borrowed the book.")
             else:
-                print("Sorry, that book is already checked out.")
+                print("Sorry, that book is already borrowed!")
         else:
             print("Book not found.")
 
@@ -101,13 +99,13 @@ while True:
         title = input("Enter the book title to search: ")
         book = library.get_book_by_title(title)
         if book:
-            print("Book found:")
+            print("Book found!")
             book.display_info()
         else:
             print("Book not found.")
 
     elif action == "7":
-        print("Goodbye!")
+        print("Bye! Please come again!")
         break
 
     else:
